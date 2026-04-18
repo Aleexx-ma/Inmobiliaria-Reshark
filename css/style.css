@@ -115,6 +115,7 @@ section {
     font-weight: 600;
     box-shadow: 0 10px 20px rgba(100, 133, 199,0.15);
     transition: 0.3s ease;
+    cursor: pointer;
 }
 
 .btn-primary:hover {
@@ -129,6 +130,7 @@ section {
     text-decoration: none;
     transition: 0.3s ease;
     background: #ececec4c;
+    cursor: pointer;
 }
 
 .btn-secondary:hover {
@@ -241,7 +243,7 @@ section {
 }
 
 .property-card {
-    background: #303c5899;
+    background: #4a587899;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
@@ -277,19 +279,19 @@ section {
 .property-title {
     color: #ffffff;
     font-size: 1.5rem;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
     text-shadow: 0 0 0;
     margin-left: 20px;
 }
 
 .property-location {
     color: #aaa;
-    margin-bottom: 12px;
+    margin-bottom: 15px;
     margin-left: 20px;
 }
 
 .property-price {
-    color: #afcaff;
+    color: #4facfe;
     font-size: 1.7rem;
     font-weight: 700;
     margin-bottom: 10px;
@@ -500,6 +502,7 @@ section {
         gap: 15px;
         flex-wrap: wrap;
         justify-content: center;
+        font-size: 0.57rem;
     }
 
     /* HERO */
@@ -521,23 +524,25 @@ section {
         grid-template-columns: 1fr;
         display: grid;
         text-align: center;
+        justify-items: center;
     }
 
-    .about-image img {
-        width: 100%;
-        max-width: 320px;
-        margin: auto;
+    .about-content p {
+        font-size: 0.8rem;
     }
-
     /* CARDS */
     .card-grid {
         grid-template-columns: 1fr;
     }
 
-    .property-desc {
-        justify-self: center;
-        max-width: 450px;
+    .property-data i {
+        font-size: 1rem;
     }
+    
+    .property-data h3 {
+        font-size: 0.9rem;
+    }
+
 
     /* CONTACT */
     .contact-container {
